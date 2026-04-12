@@ -493,11 +493,18 @@ h6 {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 80px;
 }
 
 .footer-logo-wrap {
-  margin-right: 40px;
+  margin-right: 120px;
+}
+
+.footer-social-wrap {
+  margin-right: 80px;
+}
+
+.footer-subscribe-wrap {
+  margin-left: auto;
 }
 
 .footer-subscribe-form {
