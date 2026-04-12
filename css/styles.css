@@ -493,18 +493,11 @@ h6 {
 .footer-container {
   display: flex;
   align-items: baseline;
-}
-
-.footer-social-wrap {
-  margin-right: 80px;
-}
-
-.footer-subscribe-wrap {
-  margin-left: auto;
+  gap: 80px;
 }
 
 .footer-logo-wrap {
-  margin-right: 120px;
+  margin-right: 40px;
 }
 
 .footer-subscribe-form {
@@ -544,6 +537,10 @@ h6 {
 
 .footer-subscribe-btn {
   display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   align-items: center;
   justify-content: center;
   min-width: 165px;
@@ -552,7 +549,6 @@ h6 {
   border: none;
   border-radius: 4px;
   color: #ffffff;
-  font-weight: 500;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -644,6 +640,12 @@ h6 {
   transition:
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: #404bbf;
+  border: none;
 }
 
 .modal-close-btn:hover .modal-close-icon,
