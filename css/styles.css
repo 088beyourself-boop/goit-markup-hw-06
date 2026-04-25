@@ -31,7 +31,7 @@ h6 {
   margin-block: 0;
 }
 
-.img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -880,14 +880,25 @@ h6 {
   }
 
   .footer-container {
-    width: 1158px;
+    display: flex;
     flex-wrap: nowrap;
     align-items: baseline;
     gap: 0;
+
+    margin: 0 auto;
+    width: 1158px;
   }
 
   .footer-logo-wrap {
     margin-right: 120px;
+    flex-basis: 264px;
+    flex-shrink: 0;
+  }
+
+  .footer-text {
+    width: 264px;
+    text-align: left;
+    margin: 0;
   }
 
   .footer-social-wrap {
@@ -896,6 +907,11 @@ h6 {
 
   .footer-subscribe-btn {
     margin: 0;
+  }
+
+  .footer-subscribe-form {
+    display: flex;
+    gap: 24px;
   }
 }
 
