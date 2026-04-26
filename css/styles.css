@@ -880,13 +880,14 @@ img {
   }
 
   .footer-container {
+    width: auto;
     display: flex;
     flex-wrap: nowrap;
     align-items: baseline;
-    gap: 0;
+    justify-content: flex-start;
 
     margin: 0 auto;
-    width: 1158px;
+    padding: 0 15px;
   }
 
   .footer-logo-wrap {
